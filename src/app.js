@@ -20,4 +20,4 @@ app.use(cloudinaryConfig);
 app.use(routes);
 
 
-server.listen(process.env.PORT || 3333);
+app.listen(process.env.PORT || 3333);
