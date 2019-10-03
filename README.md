@@ -37,4 +37,10 @@ como vamos lidar com upload de arquivos(imagem), não é possivel utilizar o for
 
 Após essa etapa temos 2 caminhos que podemos seguir com o multer, são eles: 1)DiskStorage: armazenar em uma pasta do seu projeto de forma local, ou 2)MemoryStorage: armazena em buffer. Como vou subir a aplicação para o heroku, não vamos conseguir armazenar localmente
 
+demais models e controllers...
 
+por fim vamos adicionar o CORS para a api ser acessa por outros sites(frontend)
+
+crie um arquivo na raiz do projeto o arquivo 'Procfile' ele vai possuir as configuraçãoes para subir nosso backend para o heruku.
+
+Não esqueça de configurar as variáveis de ambientes no settings do heroku.
