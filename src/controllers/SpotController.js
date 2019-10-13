@@ -15,6 +15,14 @@ module.exports = {
 
   },
 
+  //localhost/spots/:id_spot
+  async show(req, res) {
+    const { spot_id } = req.params;
+    const spot = await Spot.find({ _id: spot_id });
+
+    return res.json(spot);
+  },
+
   async store(req, res) {
     const { company, price, techs, site } = req.body;
     const { user_id } = req.headers;

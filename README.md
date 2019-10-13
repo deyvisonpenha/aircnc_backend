@@ -44,3 +44,7 @@ por fim vamos adicionar o CORS para a api ser acessa por outros sites(frontend)
 crie um arquivo na raiz do projeto o arquivo 'Procfile' ele vai possuir as configuraçãoes para subir nosso backend para o heruku.
 
 Não esqueça de configurar as variáveis de ambientes no settings do heroku.
+
+agora chegou a hora de fazer a atualização dos dados em real time.
+
+yarn add socket.io
